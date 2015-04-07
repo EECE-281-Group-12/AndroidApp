@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/SparkCore/libs/okhttp-1.2.1-jar-with-dependencies.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SparkCore/libs/gson-2.2.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SparkCore/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SparkCore/libs/guava-15.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/SparkCore/libs/commons-lang3-3.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

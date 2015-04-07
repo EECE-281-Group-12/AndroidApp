@@ -2,8 +2,8 @@
 <resources>
 
     <!-- Misc strings -->
-    <string name="app_name">Spark</string>
-    <string name="app_name_lower">spark</string>
+    <string name="app_name">Feedo</string>
+    <string name="app_name_lower">Feedo</string>
 
     <!-- error messages -->
     <string name="cloud_unreachable_msg">Spark could not be reached at this time. Please check your internet connection, and try again later.</string>
@@ -62,5 +62,6 @@
     <string name="_unnamed_core_">(Unnamed Core)</string>
     <string name="logged_out">Logged out.</string>
     <string name="error_communicating_with_server">Error communicating with server</string>
-
+    <string name="menu">Menu</string>
+    <string name="PetFeeder">PetFeeder</string>
 </resources>

@@ -5,20 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/cores_list_bg"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <com.danh32.fontify.TextView
         android:id="@+id/cores_title"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="?android:attr/actionBarSize"
-        android:background="@color/cores_list_darker"
-        android:padding="12dp"
-        android:text="@string/cores"
-        android:textAllCaps="true"
-        android:textColor="@color/cores_list_text"
-        android:textSize="15sp"
-        fontify:font="@string/gotham_bold" />
+        android:text="@string/menu"
+        fontify:font="@string/gotham_bold"
+        style="@style/TitleStyle" />
 
     <LinearLayout
         android:id="@+id/progressContainer"
@@ -45,12 +39,12 @@
     <FrameLayout
         android:id="@+id/listContainer"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="66dp" >
 
         <ListView
             android:id="@android:id/list"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="68dp"
             android:choiceMode="singleChoice"
             android:divider="@color/cores_list_text"
             android:dividerHeight="1dp"
@@ -59,9 +53,20 @@
         <com.danh32.fontify.TextView
             android:id="@android:id/empty"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="67dp"
             android:gravity="center"
             android:textAppearance="?android:attr/textAppearanceLarge" />
     </FrameLayout>
+
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        class="com.danh32.fontify.TextView"
+        android:id="@+id/view"
+        style="@style/TitleStyle"
+        android:layout_marginTop="0dp"
+        android:text="@string/PetFeeder"
+        android:password="false"
+        android:textStyle="bold" />
 
 </LinearLayout>

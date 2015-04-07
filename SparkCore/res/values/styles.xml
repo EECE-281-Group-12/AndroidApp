@@ -177,4 +177,15 @@
         <item name="android:max">255</item>
     </style>
 
+    <style name="TitleStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">?android:attr/actionBarSize</item>
+        <item name="android:background">@color/cores_list_darker</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/cores_list_text</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
 </resources>
